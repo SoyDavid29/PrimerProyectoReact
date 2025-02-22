@@ -1,15 +1,9 @@
-import { useState, useEffect} from "react"
+import { useState,} from "react"
 import Guitar from "./components/Guitar"
 import { use } from "react"
 
 function App() {
-
-  //state 
-  const [auth, setAuth] = useState([])
-  
-  useEffect(() => {
-    
-  })
+  const [data, setData] = useState(db)
   return (
     <>
       <main className="container-xl mt-5">
